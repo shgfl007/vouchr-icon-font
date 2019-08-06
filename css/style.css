@@ -1,0 +1,332 @@
+/*--------------------------------
+
+vouchr Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'vouchr';
+  src: url('../fonts/vouchr.eot');
+  src: url('../fonts/vouchr.eot') format('embedded-opentype'), url('../fonts/vouchr.woff2') format('woff2'), url('../fonts/vouchr.woff') format('woff'), url('../fonts/vouchr.ttf') format('truetype'), url('../fonts/vouchr.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'vouchr';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+.icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+.icon-32 {
+  font-size: 32px;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.icon-bg-square,
+.icon-bg-circle {
+  padding: 0.35em;
+  background-color: #eee;
+}
+.icon-bg-circle {
+  border-radius: 50%;
+}
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+.icon-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.icon-ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.icon-ul > li > .icon {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.icon-is-spinning {
+  -webkit-animation: icon-spin 2s infinite linear;
+  -moz-animation: icon-spin 2s infinite linear;
+  animation: icon-spin 2s infinite linear;
+}
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.icon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.icon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.icon-flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.icon-flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.icon-GIF::before {
+  content: "\ea01";
+}
+
+.icon-ar::before {
+  content: "\ea02";
+}
+
+.icon-back::before {
+  content: "\ea03";
+}
+
+.icon-calendar::before {
+  content: "\ea05";
+}
+
+.icon-camera::before {
+  content: "\ea04";
+}
+
+.icon-card::before {
+  content: "\ea06";
+}
+
+.icon-challenge::before {
+  content: "\ea07";
+}
+
+.icon-close::before {
+  content: "\ea08";
+}
+
+.icon-delete::before {
+  content: "\ea0a";
+}
+
+.icon-edit::before {
+  content: "\ea09";
+}
+
+.icon-game-18::before {
+  content: "\ea0b";
+}
+
+.icon-game-35::before {
+  content: "\ea0c";
+}
+
+.icon-gift::before {
+  content: "\ea0d";
+}
+
+.icon-history::before {
+  content: "\ea0e";
+}
+
+.icon-image::before {
+  content: "\ea0f";
+}
+
+.icon-left::before {
+  content: "\ea10";
+}
+
+.icon-leftSmall::before {
+  content: "\ea11";
+}
+
+.icon-library::before {
+  content: "\ea12";
+}
+
+.icon-like-full::before {
+  content: "\ea14";
+}
+
+.icon-like::before {
+  content: "\ea13";
+}
+
+.icon-location::before {
+  content: "\ea15";
+}
+
+.icon-lock::before {
+  content: "\ea16";
+}
+
+.icon-menu::before {
+  content: "\ea18";
+}
+
+.icon-mute::before {
+  content: "\ea17";
+}
+
+.icon-note-2::before {
+  content: "\ea19";
+}
+
+.icon-note::before {
+  content: "\ea1a";
+}
+
+.icon-note2::before {
+  content: "\ea1b";
+}
+
+.icon-ok::before {
+  content: "\ea1c";
+}
+
+.icon-receipt::before {
+  content: "\ea1d";
+}
+
+.icon-received::before {
+  content: "\ea1e";
+}
+
+.icon-replay::before {
+  content: "\ea1f";
+}
+
+.icon-right::before {
+  content: "\ea20";
+}
+
+.icon-rightSmall::before {
+  content: "\ea21";
+}
+
+.icon-rotate-camera::before {
+  content: "\ea22";
+}
+
+.icon-search::before {
+  content: "\ea23";
+}
+
+.icon-sent::before {
+  content: "\ea24";
+}
+
+.icon-sent2::before {
+  content: "\ea25";
+}
+
+.icon-share::before {
+  content: "\ea26";
+}
+
+.icon-slide-show::before {
+  content: "\ea27";
+}
+
+.icon-upload::before {
+  content: "\ea28";
+}
+
+.icon-video-replay::before {
+  content: "\ea29";
+}
+
+.icon-video::before {
+  content: "\ea2a";
+}
+
+.icon-volumn::before {
+  content: "\ea2b";
+}
+
+.icon-youtube::before {
+  content: "\ea2c";
+}
+

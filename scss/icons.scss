@@ -1,0 +1,228 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-GIF: unicode(ea01);
+$icon-ar: unicode(ea02);
+$icon-back: unicode(ea03);
+$icon-calendar: unicode(ea05);
+$icon-camera: unicode(ea04);
+$icon-card: unicode(ea06);
+$icon-challenge: unicode(ea07);
+$icon-close: unicode(ea08);
+$icon-delete: unicode(ea0a);
+$icon-edit: unicode(ea09);
+$icon-game-18: unicode(ea0b);
+$icon-game-35: unicode(ea0c);
+$icon-gift: unicode(ea0d);
+$icon-history: unicode(ea0e);
+$icon-image: unicode(ea0f);
+$icon-left: unicode(ea10);
+$icon-leftSmall: unicode(ea11);
+$icon-library: unicode(ea12);
+$icon-like-full: unicode(ea14);
+$icon-like: unicode(ea13);
+$icon-location: unicode(ea15);
+$icon-lock: unicode(ea16);
+$icon-menu: unicode(ea18);
+$icon-mute: unicode(ea17);
+$icon-note-2: unicode(ea19);
+$icon-note: unicode(ea1a);
+$icon-note2: unicode(ea1b);
+$icon-ok: unicode(ea1c);
+$icon-receipt: unicode(ea1d);
+$icon-received: unicode(ea1e);
+$icon-replay: unicode(ea1f);
+$icon-right: unicode(ea20);
+$icon-rightSmall: unicode(ea21);
+$icon-rotate-camera: unicode(ea22);
+$icon-search: unicode(ea23);
+$icon-sent: unicode(ea24);
+$icon-sent2: unicode(ea25);
+$icon-share: unicode(ea26);
+$icon-slide-show: unicode(ea27);
+$icon-upload: unicode(ea28);
+$icon-video-replay: unicode(ea29);
+$icon-video: unicode(ea2a);
+$icon-volumn: unicode(ea2b);
+$icon-youtube: unicode(ea2c);
+
+.icon-GIF::before {
+  content: $icon-GIF;
+}
+
+.icon-ar::before {
+  content: $icon-ar;
+}
+
+.icon-back::before {
+  content: $icon-back;
+}
+
+.icon-calendar::before {
+  content: $icon-calendar;
+}
+
+.icon-camera::before {
+  content: $icon-camera;
+}
+
+.icon-card::before {
+  content: $icon-card;
+}
+
+.icon-challenge::before {
+  content: $icon-challenge;
+}
+
+.icon-close::before {
+  content: $icon-close;
+}
+
+.icon-delete::before {
+  content: $icon-delete;
+}
+
+.icon-edit::before {
+  content: $icon-edit;
+}
+
+.icon-game-18::before {
+  content: $icon-game-18;
+}
+
+.icon-game-35::before {
+  content: $icon-game-35;
+}
+
+.icon-gift::before {
+  content: $icon-gift;
+}
+
+.icon-history::before {
+  content: $icon-history;
+}
+
+.icon-image::before {
+  content: $icon-image;
+}
+
+.icon-left::before {
+  content: $icon-left;
+}
+
+.icon-leftSmall::before {
+  content: $icon-leftSmall;
+}
+
+.icon-library::before {
+  content: $icon-library;
+}
+
+.icon-like-full::before {
+  content: $icon-like-full;
+}
+
+.icon-like::before {
+  content: $icon-like;
+}
+
+.icon-location::before {
+  content: $icon-location;
+}
+
+.icon-lock::before {
+  content: $icon-lock;
+}
+
+.icon-menu::before {
+  content: $icon-menu;
+}
+
+.icon-mute::before {
+  content: $icon-mute;
+}
+
+.icon-note-2::before {
+  content: $icon-note-2;
+}
+
+.icon-note::before {
+  content: $icon-note;
+}
+
+.icon-note2::before {
+  content: $icon-note2;
+}
+
+.icon-ok::before {
+  content: $icon-ok;
+}
+
+.icon-receipt::before {
+  content: $icon-receipt;
+}
+
+.icon-received::before {
+  content: $icon-received;
+}
+
+.icon-replay::before {
+  content: $icon-replay;
+}
+
+.icon-right::before {
+  content: $icon-right;
+}
+
+.icon-rightSmall::before {
+  content: $icon-rightSmall;
+}
+
+.icon-rotate-camera::before {
+  content: $icon-rotate-camera;
+}
+
+.icon-search::before {
+  content: $icon-search;
+}
+
+.icon-sent::before {
+  content: $icon-sent;
+}
+
+.icon-sent2::before {
+  content: $icon-sent2;
+}
+
+.icon-share::before {
+  content: $icon-share;
+}
+
+.icon-slide-show::before {
+  content: $icon-slide-show;
+}
+
+.icon-upload::before {
+  content: $icon-upload;
+}
+
+.icon-video-replay::before {
+  content: $icon-video-replay;
+}
+
+.icon-video::before {
+  content: $icon-video;
+}
+
+.icon-volumn::before {
+  content: $icon-volumn;
+}
+
+.icon-youtube::before {
+  content: $icon-youtube;
+}
+
