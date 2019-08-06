@@ -15,8 +15,8 @@ $icon-challenge: unicode(ea07);
 $icon-close: unicode(ea08);
 $icon-delete: unicode(ea0a);
 $icon-edit: unicode(ea09);
-$icon-game-18: unicode(ea0b);
-$icon-game-35: unicode(ea0c);
+$icon-game: unicode(ea0b);
+$icon-game2: unicode(ea0c);
 $icon-gift: unicode(ea0d);
 $icon-history: unicode(ea0e);
 $icon-image: unicode(ea0f);
@@ -27,11 +27,9 @@ $icon-like-full: unicode(ea14);
 $icon-like: unicode(ea13);
 $icon-location: unicode(ea15);
 $icon-lock: unicode(ea16);
-$icon-menu: unicode(ea18);
+$icon-left-align: unicode(ea18);
 $icon-mute: unicode(ea17);
-$icon-note-2: unicode(ea19);
-$icon-note: unicode(ea1a);
-$icon-note2: unicode(ea1b);
+$icon-note: unicode(ea1b);
 $icon-ok: unicode(ea1c);
 $icon-receipt: unicode(ea1d);
 $icon-received: unicode(ea1e);
@@ -90,12 +88,12 @@ $icon-youtube: unicode(ea2c);
   content: $icon-edit;
 }
 
-.icon-game-18::before {
-  content: $icon-game-18;
+.icon-game::before {
+  content: $icon-game;
 }
 
-.icon-game-35::before {
-  content: $icon-game-35;
+.icon-game2::before {
+  content: $icon-game2;
 }
 
 .icon-gift::before {
@@ -138,25 +136,21 @@ $icon-youtube: unicode(ea2c);
   content: $icon-lock;
 }
 
-.icon-menu::before {
-  content: $icon-menu;
+.icon-left-align::before {
+  content: $icon-left-align;
 }
 
 .icon-mute::before {
   content: $icon-mute;
 }
 
-.icon-note-2::before {
-  content: $icon-note-2;
-}
+
 
 .icon-note::before {
   content: $icon-note;
 }
 
-.icon-note2::before {
-  content: $icon-note2;
-}
+
 
 .icon-ok::before {
   content: $icon-ok;
@@ -225,4 +219,3 @@ $icon-youtube: unicode(ea2c);
 .icon-youtube::before {
   content: $icon-youtube;
 }
-

@@ -63,7 +63,7 @@ header a:hover {
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 ul li {
@@ -127,6 +127,20 @@ ul input {
   outline: none;
 }
 
+h2{
+  font-size: 20px;
+  padding: 4px 32px;
+  font-weight: 600;
+}
+
+.section p{
+  padding: 4px 32px 24px 32px;
+}
+
+.section{
+  margin-bottom: 64px;
+}
+
 /* --------------------------------
 
 icons
@@ -186,11 +200,11 @@ icons
     content: "\ea09";
 }
 
-.icon-game-18::before {
+.icon-game::before {
     content: "\ea0b";
 }
 
-.icon-game-35::before {
+.icon-game2::before {
     content: "\ea0c";
 }
 
@@ -234,7 +248,7 @@ icons
     content: "\ea16";
 }
 
-.icon-menu::before {
+.icon-left-align::before {
     content: "\ea18";
 }
 
@@ -242,15 +256,8 @@ icons
     content: "\ea17";
 }
 
-.icon-note-2::before {
-    content: "\ea19";
-}
 
 .icon-note::before {
-    content: "\ea1a";
-}
-
-.icon-note2::before {
     content: "\ea1b";
 }
 
@@ -321,4 +328,3 @@ icons
 .icon-youtube::before {
     content: "\ea2c";
 }
-
