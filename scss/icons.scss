@@ -8,45 +8,58 @@
 $icon-GIF: unicode(ea01);
 $icon-ar: unicode(ea02);
 $icon-back: unicode(ea03);
-$icon-calendar: unicode(ea05);
-$icon-camera: unicode(ea04);
+$icon-calendar: unicode(ea04);
+$icon-camera: unicode(ea05);
 $icon-card: unicode(ea06);
-$icon-challenge: unicode(ea07);
-$icon-close: unicode(ea08);
-$icon-delete: unicode(ea0a);
-$icon-edit: unicode(ea09);
-$icon-game: unicode(ea0b);
-$icon-game2: unicode(ea0c);
-$icon-gift: unicode(ea0d);
-$icon-history: unicode(ea0e);
-$icon-image: unicode(ea0f);
-$icon-left: unicode(ea10);
-$icon-leftSmall: unicode(ea11);
-$icon-library: unicode(ea12);
-$icon-like-full: unicode(ea14);
-$icon-like: unicode(ea13);
-$icon-location: unicode(ea15);
-$icon-lock: unicode(ea16);
-$icon-left-align: unicode(ea18);
-$icon-mute: unicode(ea17);
-$icon-note: unicode(ea1b);
-$icon-ok: unicode(ea1c);
-$icon-receipt: unicode(ea1d);
-$icon-received: unicode(ea1e);
-$icon-replay: unicode(ea1f);
-$icon-right: unicode(ea20);
-$icon-rightSmall: unicode(ea21);
-$icon-rotate-camera: unicode(ea22);
-$icon-search: unicode(ea23);
-$icon-sent: unicode(ea24);
-$icon-sent2: unicode(ea25);
-$icon-share: unicode(ea26);
-$icon-slide-show: unicode(ea27);
-$icon-upload: unicode(ea28);
-$icon-video-replay: unicode(ea29);
-$icon-video: unicode(ea2a);
-$icon-volumn: unicode(ea2b);
-$icon-youtube: unicode(ea2c);
+$icon-center-align: unicode(ea0a);
+$icon-challenge: unicode(ea09);
+$icon-close: unicode(ea07);
+$icon-colour: unicode(ea08);
+$icon-delete: unicode(ea0b);
+$icon-edit: unicode(ea0c);
+$icon-font: unicode(ea0d);
+$icon-format: unicode(ea0e);
+$icon-game: unicode(ea0f);
+$icon-game2: unicode(ea10);
+$icon-gift: unicode(ea11);
+$icon-history: unicode(ea12);
+$icon-reorder: unicode(ea13);
+$icon-image: unicode(ea14);
+$icon-left-align: unicode(ea15);
+$icon-left: unicode(ea16);
+$icon-leftSmall: unicode(ea17);
+$icon-library: unicode(ea18);
+$icon-like-full: unicode(ea19);
+$icon-like: unicode(ea1a);
+$icon-location: unicode(ea1b);
+$icon-lock: unicode(ea1d);
+$icon-menu: unicode(ea1c);
+$icon-mute: unicode(ea1e);
+$icon-note-2: unicode(ea1f);
+$icon-note2: unicode(ea20);
+$icon-note: unicode(ea21);
+$icon-ok: unicode(ea22);
+$icon-open: unicode(ea23);
+$icon-preview: unicode(ea24);
+$icon-receipt: unicode(ea25);
+$icon-received: unicode(ea26);
+$icon-refresh: unicode(ea27);
+$icon-replay: unicode(ea28);
+$icon-right-align: unicode(ea29);
+$icon-right: unicode(ea2a);
+$icon-rightSmall: unicode(ea2b);
+$icon-rotate-camera: unicode(ea2c);
+$icon-search: unicode(ea2d);
+$icon-sent: unicode(ea2e);
+$icon-sent2: unicode(ea2f);
+$icon-settings: unicode(ea30);
+$icon-share: unicode(ea31);
+$icon-slide-show: unicode(ea32);
+$icon-upload: unicode(ea33);
+$icon-video-replay: unicode(ea34);
+$icon-video: unicode(ea35);
+$icon-volumn: unicode(ea36);
+$icon-youtube: unicode(ea37);
 
 .icon-GIF::before {
   content: $icon-GIF;
@@ -72,6 +85,10 @@ $icon-youtube: unicode(ea2c);
   content: $icon-card;
 }
 
+.icon-center-align::before {
+  content: $icon-center-align;
+}
+
 .icon-challenge::before {
   content: $icon-challenge;
 }
@@ -80,12 +97,24 @@ $icon-youtube: unicode(ea2c);
   content: $icon-close;
 }
 
+.icon-colour::before {
+  content: $icon-colour;
+}
+
 .icon-delete::before {
   content: $icon-delete;
 }
 
 .icon-edit::before {
   content: $icon-edit;
+}
+
+.icon-font::before {
+  content: $icon-font;
+}
+
+.icon-format::before {
+  content: $icon-format;
 }
 
 .icon-game::before {
@@ -104,8 +133,16 @@ $icon-youtube: unicode(ea2c);
   content: $icon-history;
 }
 
+.icon-reorder::before {
+  content: $icon-reorder;
+}
+
 .icon-image::before {
   content: $icon-image;
+}
+
+.icon-left-align::before {
+  content: $icon-left-align;
 }
 
 .icon-left::before {
@@ -136,24 +173,36 @@ $icon-youtube: unicode(ea2c);
   content: $icon-lock;
 }
 
-.icon-left-align::before {
-  content: $icon-left-align;
+.icon-menu::before {
+  content: $icon-menu;
 }
 
 .icon-mute::before {
   content: $icon-mute;
 }
 
-
+.icon-note-2::before {
+  content: $icon-note-2;
+}
 
 .icon-note::before {
   content: $icon-note;
 }
 
-
+.icon-note2::before {
+  content: $icon-note2;
+}
 
 .icon-ok::before {
   content: $icon-ok;
+}
+
+.icon-open::before {
+  content: $icon-open;
+}
+
+.icon-preview::before {
+  content: $icon-preview;
 }
 
 .icon-receipt::before {
@@ -164,8 +213,16 @@ $icon-youtube: unicode(ea2c);
   content: $icon-received;
 }
 
+.icon-refresh::before {
+  content: $icon-refresh;
+}
+
 .icon-replay::before {
   content: $icon-replay;
+}
+
+.icon-right-align::before {
+  content: $icon-right-align;
 }
 
 .icon-right::before {
@@ -190,6 +247,10 @@ $icon-youtube: unicode(ea2c);
 
 .icon-sent2::before {
   content: $icon-sent2;
+}
+
+.icon-settings::before {
+  content: $icon-settings;
 }
 
 .icon-share::before {

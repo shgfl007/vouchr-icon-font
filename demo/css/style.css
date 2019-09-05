@@ -161,170 +161,221 @@ icons
 -------------------------*/
 
 .icon-GIF::before {
-    content: "\ea01";
+  content: "\ea01";
 }
 
 .icon-ar::before {
-    content: "\ea02";
+  content: "\ea02";
 }
 
 .icon-back::before {
-    content: "\ea03";
+  content: "\ea03";
 }
 
 .icon-calendar::before {
-    content: "\ea05";
+  content: "\ea04";
 }
 
 .icon-camera::before {
-    content: "\ea04";
+  content: "\ea05";
 }
 
 .icon-card::before {
-    content: "\ea06";
+  content: "\ea06";
+}
+
+.icon-center-align::before {
+  content: "\ea0a";
 }
 
 .icon-challenge::before {
-    content: "\ea07";
+  content: "\ea09";
 }
 
 .icon-close::before {
-    content: "\ea08";
+  content: "\ea07";
+}
+
+.icon-colour::before {
+  content: "\ea08";
 }
 
 .icon-delete::before {
-    content: "\ea0a";
+  content: "\ea0b";
 }
 
 .icon-edit::before {
-    content: "\ea09";
+  content: "\ea0c";
+}
+
+.icon-font::before {
+  content: "\ea0d";
+}
+
+.icon-format::before {
+  content: "\ea0e";
 }
 
 .icon-game::before {
-    content: "\ea0b";
+  content: "\ea0f";
 }
 
 .icon-game2::before {
-    content: "\ea0c";
+  content: "\ea10";
 }
 
 .icon-gift::before {
-    content: "\ea0d";
+  content: "\ea11";
 }
 
 .icon-history::before {
-    content: "\ea0e";
+  content: "\ea12";
+}
+
+.icon-reorder::before {
+  content: "\ea13";
 }
 
 .icon-image::before {
-    content: "\ea0f";
-}
-
-.icon-left::before {
-    content: "\ea10";
-}
-
-.icon-leftSmall::before {
-    content: "\ea11";
-}
-
-.icon-library::before {
-    content: "\ea12";
-}
-
-.icon-like-full::before {
-    content: "\ea14";
-}
-
-.icon-like::before {
-    content: "\ea13";
-}
-
-.icon-location::before {
-    content: "\ea15";
-}
-
-.icon-lock::before {
-    content: "\ea16";
+  content: "\ea14";
 }
 
 .icon-left-align::before {
-    content: "\ea18";
+  content: "\ea15";
+}
+
+.icon-left::before {
+  content: "\ea16";
+}
+
+.icon-leftSmall::before {
+  content: "\ea17";
+}
+
+.icon-library::before {
+  content: "\ea18";
+}
+
+.icon-like-full::before {
+  content: "\ea19";
+}
+
+.icon-like::before {
+  content: "\ea1a";
+}
+
+.icon-location::before {
+  content: "\ea1b";
+}
+
+.icon-lock::before {
+  content: "\ea1d";
+}
+
+.icon-menu::before {
+  content: "\ea1c";
 }
 
 .icon-mute::before {
-    content: "\ea17";
+  content: "\ea1e";
 }
 
+.icon-note-2::before {
+  content: "\ea1f";
+}
+
+.icon-note2::before {
+  content: "\ea20";
+}
 
 .icon-note::before {
-    content: "\ea1b";
+  content: "\ea21";
 }
 
 .icon-ok::before {
-    content: "\ea1c";
+  content: "\ea22";
+}
+
+.icon-open::before {
+  content: "\ea23";
+}
+
+.icon-preview::before {
+  content: "\ea24";
 }
 
 .icon-receipt::before {
-    content: "\ea1d";
+  content: "\ea25";
 }
 
 .icon-received::before {
-    content: "\ea1e";
+  content: "\ea26";
+}
+
+.icon-refresh::before {
+  content: "\ea27";
 }
 
 .icon-replay::before {
-    content: "\ea1f";
+  content: "\ea28";
+}
+
+.icon-right-align::before {
+  content: "\ea29";
 }
 
 .icon-right::before {
-    content: "\ea20";
+  content: "\ea2a";
 }
 
 .icon-rightSmall::before {
-    content: "\ea21";
+  content: "\ea2b";
 }
 
 .icon-rotate-camera::before {
-    content: "\ea22";
+  content: "\ea2c";
 }
 
 .icon-search::before {
-    content: "\ea23";
+  content: "\ea2d";
 }
 
 .icon-sent::before {
-    content: "\ea24";
+  content: "\ea2e";
 }
 
 .icon-sent2::before {
-    content: "\ea25";
+  content: "\ea2f";
+}
+
+.icon-settings::before {
+  content: "\ea30";
 }
 
 .icon-share::before {
-    content: "\ea26";
+  content: "\ea31";
 }
 
 .icon-slide-show::before {
-    content: "\ea27";
+  content: "\ea32";
 }
 
 .icon-upload::before {
-    content: "\ea28";
+  content: "\ea33";
 }
 
 .icon-video-replay::before {
-    content: "\ea29";
+  content: "\ea34";
 }
 
 .icon-video::before {
-    content: "\ea2a";
+  content: "\ea35";
 }
 
 .icon-volumn::before {
-    content: "\ea2b";
+  content: "\ea36";
 }
 
 .icon-youtube::before {
-    content: "\ea2c";
+  content: "\ea37";
 }
